@@ -27,7 +27,7 @@ public class stepDefinition   {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-		
+		System.out.println("Hello team creating my first git project");
 		
 	   
 	}
